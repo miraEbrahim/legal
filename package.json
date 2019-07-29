@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/miraEbrahim/legal/issues"
   },
-  "homepage": "https://github.com/miraEbrahim/legal#readme"
+  "homepage": "https://github.com/miraEbrahim/legal#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-bower": "0.0.15",
+    "gulp-sass": "^4.0.2"
+  }
 }

@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.cover {
+    background: url(/img/royal-courts-of-justice.jpg) center;
+    background-size: cover;
+    min-height: 50rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem; }
+    
+    .cover h1 {
+      font-weight: 200; }
+    
+    .cover p.lead {
+      margin: 2rem auto;
+      color: rgba(255, 255, 255, 0.75); }
+    
+    .cover .cover-container {
+      display: table;
+      height: 100%;
+      min-height: 44rem;
+      margin: 0 auto; }
+      
+      .grey {
+          background-color: blue;
+      }
