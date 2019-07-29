@@ -1,9 +1,1 @@
-mkdir sass
-touch sass/app.scss
-npm i bootstrap
-npm i autoprefixer
-npm install --save-dev gulp gulp-bower gulp-sass
-copy _Variables.scss from bootstrap folder to sass folder and rename it to _customVariables.scss
-import _customVariables.scss into app.scss
-npm install -g sass
 node_modules
