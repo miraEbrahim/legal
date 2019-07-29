@@ -23,8 +23,6 @@
     "popper.js": "^1.15.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-bower": "0.0.15",
-    "gulp-sass": "^4.0.2"
+    "gulp": "^4.0.2"
   }
 }
