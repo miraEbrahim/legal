@@ -1,0 +1,348 @@
+/*
+ * Base structure
+ */
+
+ html,
+ body {
+   height: 100vh;
+   /* background-color: #fff; */
+ }
+ 
+ /*
+ * Globals
+ */
+
+/* Links */
+a {
+    color: #D9F1F4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+  }
+  
+  a:focus,
+  a:hover {
+    color: #2EB0C4;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  /* Custom default button */
+  .btn-blue {
+      color: #2EB0C4 !important;
+      text-shadow: none; /* Prevent inheritance from `body` */
+      background-color: transparent!important;
+      border: .05rem solid #2EB0C4!important;
+    }
+    
+    
+    .btn-blue:hover,
+    .btn-blue:focus { 
+      color: #D9F1F4 !important;
+      text-shadow: none; /* Prevent inheritance from `body` */
+      background-color: #2EB0C4!important;
+      border: .05rem solid #2EB0C4!important;
+    }
+    .btn-flag {
+        color: #92A1A3 !important;
+        text-shadow: none; /* Prevent inheritance from `body` */
+        background-color: transparent!important;
+        border: .05rem solid #2EB0C4!important;
+      }
+      
+      
+      .btn-flag:hover,
+      .btn-flag:focus { 
+        color: #D9F1F4 !important;
+        text-shadow: none; /* Prevent inheritance from `body` */
+        background-color: #92A1A3!important;
+        border: .05rem solid #92A1A3!important;
+      }
+    .btn-blue-secondary:hover,
+    
+    .btn-blue-secondary:focus {
+        color: #2EB0C4 !important;
+        text-shadow: none; /* Prevent inheritance from `body` */
+        background-color: transparent!important;
+        border: .05rem solid #2EB0C4!important;
+      }
+      
+      
+      .btn-blue-secondary { 
+        color: #D9F1F4 !important;
+        text-shadow: none; /* Prevent inheritance from `body` */
+        background-color: #2EB0C4!important;
+        border: .05rem solid #2EB0C4!important;
+      }
+  
+
+
+.disclaimer-text{
+    color: #F4F4F8;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0.5rem;
+}
+
+.footer-text{
+    color: #D9F1F4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.logo-text {
+    color: #2EB0C4;
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase; 
+    font-size: 2rem;
+}
+
+.btn-text {
+    font-family: 'Voltaire', sans-serif;
+    text-transform: uppercase; 
+}
+
+.heading{
+    color: #465B5E;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.flag-heading{
+    color: #2EB0C4;
+    font-family: 'Voltaire', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.sub-heading{
+    color: #D9F1F4;
+    font-family: 'Voltaire', sans-serif;
+  text-transform: uppercase; 
+  font-size: 1.5rem;
+}
+.text{
+    color: #92A1A3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.primary-text{
+    color: #2EB0C4;
+    font-family: 'Voltaire', sans-serif;
+    text-transform: capitalize; 
+    font-size: 4rem;
+    padding-top: 4rem;
+    
+  }
+
+  .primary-heading{
+    color: #D9F1F4;
+    font-family: 'Voltaire', sans-serif;
+    text-transform: capitalize; 
+    font-size: 3rem;
+    padding-top: 4rem;
+    
+  }
+
+.text-p {
+    color: #E8F3F4;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+
+.services-container{
+    height: 80vh;
+    width: 100vw;
+    background: linear-gradient(
+        rgba(6, 12, 15, 0.8),
+        rgba(6, 12, 15, 0.7)
+      ),
+  url('/app/img/passport.jpg') center ;
+  padding: 2rem;
+   vertical-align: middle;
+   background-repeat: no-repeat;
+  background-size: 100vw 80vh;
+}
+.attestation-container{
+    height: 60vh;
+    width: 100vw;
+    background: linear-gradient(
+        rgba(6, 12, 15, 0.8),
+        rgba(6, 12, 15, 0.7)
+      ),
+  url('/app/img/flag.jpg') center ;
+  padding: 2rem;
+  background-repeat: no-repeat;
+  background-size: 100vw 60vh;
+}
+
+.flag {
+    width: 150px;
+    padding: .2rem;
+}
+
+.flag:hover,
+.flag:active {
+    width: 200px;
+}
+/* 
+.apostille-background{
+    background: 
+  url('/app/img/apostile.png') center ;
+  object-fit: contain;
+
+} */
+/*
+ * Header
+ */
+ .masthead {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .masthead-brand {
+    margin-bottom: 0;
+  }
+  
+  .nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: #D9F1F4;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+    border-bottom-color: #D9F1F4
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: #2EB0C4;
+    border-bottom-color: #2EB0C4;
+  }
+  
+  @media (min-width: 48em) {
+    .masthead-brand {
+      float: left;
+    }
+    .nav-masthead {
+      float: right;
+    }
+  }
+
+ /*
+ * Fontawesome
+ */
+
+ .fas-pri {
+     font-size: 3.5rem;
+     color: #2EB0C4;
+     padding-bottom:2rem; 
+ }
+
+
+ .fas-secondary {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #2EB0C4;
+}
+
+.fas-secondary:hover,
+fas-secondary:active{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #465B5E;
+}
+
+.fas-flag {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #465B5E;
+}
+
+.fas-flag:hover,
+fas-flag:active{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: #2EB0C4;
+}
+
+.fas-header {
+    font-size: 4rem;
+    color: #2EB0C4;
+}
+
+.fas-list {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #465B5E;
+}
+
+.services-Jumbo{
+background-color: rgb(234, 245, 247);
+padding: 4rem 2rem;
+margin-bottom: 2rem;
+border-radius: 0.3rem;
+}
+
+/* animation */
+#container {
+    text-transform: uppercase;
+    font-size:2rem;
+    padding-top:2rem;  
+    width:100%;
+    bottom:45%;
+    display:block;
+    font-family: 'Voltaire', sans-serif;
+  }
+#flip {
+    height:50px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#465B5E;
+  }
+  #flip div:first-child div {
+    background:#2EB0C4;
+  }
+  #flip div:last-child div {
+    background:#2EB0C4;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
